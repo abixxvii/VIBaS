@@ -1,0 +1,49 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# --- ML / data artifacts ---
+# ignore sample datasets & generated outputs
+src/scripts/data/samples/
+
+# common large files
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# training logs / runs
+runs/
+checkpoints/
+wandb/
+lightning_logs/
+logs/
+tensorboard/
+
